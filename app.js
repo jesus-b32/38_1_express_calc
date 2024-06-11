@@ -1,6 +1,11 @@
 const express = require('express');
 const ExpressError = require('./expressError');
-const {calcMode, calcMean, calcMedian, convertAndValidateNums } = require('./calc');
+const {
+    calcMode,
+    calcMean,
+    calcMedian,
+    convertAndValidateNums
+} = require('./calc');
 
 const app = express();
 

@@ -4,6 +4,8 @@
  * @returns {float}
  */
 function calcMean(num_array) {
+    if(num_array.length === 0) return 0;
+    
     let sum = 0;
     for(let num of num_array) {
         sum += num;
